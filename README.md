@@ -18,3 +18,6 @@ PHP version 5.6 or newer is recommended.
 - include script `<script src='https://www.google.com/recaptcha/api.js'></script>` in head html.
 - input `<div class="g-recaptcha" data-sitekey="<?= $this->google_captcha_rk->getSiteKey(); ?>"></div>`in form.
 - use `$status = $this->google_captcha_rk->validationCaptcha($trim($this->input->post('g-recaptcha-response')));` for check validation.
+
+### Screenshot
+![Alt text](https://github.com/wawandx/google_recaptcha_rk/blob/master/screenshot/ss.png?raw=true "reCaptcha")
