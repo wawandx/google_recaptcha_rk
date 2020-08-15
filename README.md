@@ -1,6 +1,6 @@
-## Apa itu Google reCAPTCHA
+## What is Google reCAPTCHA?
 
-Google reCAPTCHA membantu melindungi situs web dari aktivitas spam atau perangkat lunak berbahaya.
+Google reCAPTCHA helps protect websites from spam activity or malicious software.
 
 ### Server Requirements
 
@@ -12,7 +12,7 @@ PHP version 5.6 or newer is recommended.
 
 ### How to use
 
-- Masukkan file google_captcha_rk in library.
+- put in file google_captcha_rk in library.
 - load library `$this->load->library('google_captcha_rk');`
 - input key `$this->google_captcha_rk->setKey('site key','secret key');`
 - include script `<script src='https://www.google.com/recaptcha/api.js'></script>` in head html.
